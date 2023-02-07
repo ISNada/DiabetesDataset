@@ -13,7 +13,7 @@ get_ipython().run_line_magic('matplotlib', 'inline')
 # In[4]:
 
 
-diabetes = pd.read_csv('C:\\Users\\nadaa\\Desktop\\diabetes.csv')
+diabetes = pd.read_csv('\diabetes.csv')
 print(diabetes.columns)
 
 
